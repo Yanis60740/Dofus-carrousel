@@ -1,0 +1,24 @@
+@import "../css/variables.scss";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  p{
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+  }
+
+  a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  body{
+    background-color: black;
+  }

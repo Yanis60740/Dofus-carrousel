@@ -16,10 +16,10 @@
           </div>
         </div>
         <div class="carrousel-personnages__container__personnages__swipper">
-          <span ref="swippe0"></span>
-          <span ref="swippe1"></span>
-          <span ref="swippe2"></span>
-          <span ref="swippe3"></span>
+          <span ref="swippe0" @click="changeFocus(0)"></span>
+          <span ref="swippe1" @click="changeFocus(1)"></span>
+          <span ref="swippe2" @click="changeFocus(2)"></span>
+          <span ref="swippe3" @click="changeFocus(3)"></span>
         </div>
       </div>
       <div class="carrousel-personnages__container__description">
@@ -316,6 +316,7 @@ export default {
           background: #47413d;
           opacity: 1;
           margin: 0 6px;
+          cursor: pointer;
         }
       }
     }
